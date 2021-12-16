@@ -22,20 +22,20 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/pomodorotimer" className={styles.card}>
+          <Link href="/pomodorotimer" className={styles.card}>
             <h2>Pomodoro Timer &rarr;</h2>
-            <img src="" />
-          </a>
+            <img src="" alt="timer" />
+          </Link>
 
-          <a href="/" className={styles.card}>
+          <Link href="/" className={styles.card}>
             <h2>Challenge 2 &rarr;</h2>
-            <img src="" />
-          </a>
+            <img src="" alt="" />
+          </Link>
 
-          <a href="/" className={styles.card}>
+          <Link href="/" className={styles.card}>
             <h2>Challenge 3 &rarr;</h2>
-            <img src="" />
-          </a>
+            <img src="" alt="" />
+          </Link>
         </div>
       </main>
 
